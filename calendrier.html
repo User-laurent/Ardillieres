@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disponibilités - Le Clos d'Ardillières</title>
+    <link rel="stylesheet" href="calendrier.css">
+</head>
+<body>
+
+<section class="calendrier-wrapper">
+    <div class="calendrier-entete">
+        <div>
+            <h2>Disponibilités</h2>
+            <p>Le Clos d'Ardillières</p>
+        </div>
+        <div class="legende">
+            <span><i class="dispo"></i> Disponible</span>
+            <span><i class="reserve"></i> Réservé</span>
+        </div>
+    </div>
+
+    <div id="message-erreur" class="message-erreur" hidden></div>
+
+    <div class="navigation">
+        <button id="precedent" aria-label="Mois précédent">‹</button>
+        <h3 id="mois-annee"></h3>
+        <button id="suivant" aria-label="Mois suivant">›</button>
+    </div>
+
+    <div class="jours-semaine">
+        <span>Lun</span><span>Mar</span><span>Mer</span>
+        <span>Jeu</span><span>Ven</span><span>Sam</span><span>Dim</span>
+    </div>
+
+    <div id="calendrier" class="grille-calendrier"></div>
+
+    <div id="selection" class="selection" hidden>
+        <div>
+            <strong id="dates-selection"></strong>
+            <span id="details-selection"></span>
+        </div>
+        <div class="total" id="total-selection"></div>
+        <button id="reset-selection" class="bouton-secondaire">Réinitialiser</button>
+    </div>
+
+    <p class="note-calendrier">
+        Les prix affichés sont indicatifs. Le tarif final dépend des dates sélectionnées.
+    </p>
+</section>
+
+<script src="calendrier.js"></script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Clos d'Ardillières — Gîte en Charente-Maritime</title>
+  <meta name="description" content="Le Clos d'Ardillières : gîte de charme pour 6 personnes à Ardillières, en Charente-Maritime, entre Rochefort et La Rochelle.">
+  <meta name="keywords" content="gîte Ardillières, location vacances Charente-Maritime, gîte Rochefort, gîte La Rochelle, gîte Châtelaillon">
+  <meta name="theme-color" content="#315b52">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <img class="logo1" src="images/logo.png">
+  <a></a>
+  <button class="menu-btn" aria-label="Ouvrir le menu">☰</button>
+  <nav>
+    <a href="#gite">Le gîte</a>
+    <a href="#chambres">Chambres</a>
+    <a href="#exterieur">Extérieur</a>
+    <a href="#alentours">Aux alentours</a>
+    <a href="#galerie" onclick="ouvrirGalerie(0)">Photos</a>
+    <a class="nav-cta" href="#contact">Réserver</a>
+  </nav>
+</header>
+
+<main>
+<section id="accueil" class="hero">
+  <div class="hero-photo placeholder">
+    <img src="images/sejour.jpg" width=100% onclick="ouvrirGalerie(0)" alt="Le gîte Le Clos d'Ardillières, une maison de vacances en Charente-Maritime" />
+  </div>
+  <div class="hero-content">
+    <p class="eyebrow">Charente-Maritime · Ardillières</p>
+    <h1>Le Clos d'Ardillières</h1>
+    <p class="lead">Un gîte chaleureux au calme de la campagne, entre Rochefort et La Rochelle.</p>
+    <div class="hero-buttons">
+      <a class="button" href="#contact">Voir les disponibilités</a>
+      <a class="button secondary" href="#gite">Découvrir le gîte</a>
+    </div>
+    <div class="quick-info">
+      <span>👨‍👩‍👧‍👦 6 personnes</span>
+      <span>🛏️ 3 chambres</span>
+      <span>📐 73 m²</span>
+      <span>🌿 Jardin privatif</span>
+    </div>
+  </div>
+</section>
+
+<section id="gite" class="section intro">
+  <div>
+    <p class="eyebrow">Bienvenue</p>
+    <h2>Une parenthèse au calme</h2>
+    <p>Bienvenue au Clos d'Ardillières, une maison de vacances pleine de charme située dans un environnement paisible de Charente-Maritime.</p>
+    <p>Le gîte accueille jusqu'à 6 personnes et constitue un point de départ idéal pour découvrir Rochefort, les plages de Châtelaillon, La Rochelle et les trésors de la côte charentaise.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Tout pour se sentir chez soi</h3>
+    <ul>
+      <li>✓ Séjour convivial avec table pour 6</li>
+      <li>✓ Cuisine équipée</li>
+      <li>✓ Wi-Fi</li>
+      <li>✓ Salle d'eau avec grande douche</li>
+      <li>✓ Lave-linge</li>
+      <li>✓ Jardin clos et arboré</li>
+      <li>✓ Barbecue à gaz</li>
+    </ul>
+  </div>
+</section>
+
+<section id="chambres" class="section alt">
+  <p class="eyebrow">Les nuits</p>
+  <h2>Trois chambres, six couchages</h2>
+  <div class="cards">
+    <article class="card">
+      <div class="card-photo placeholder">
+        <img src="images/grande_chambre.jpg" width=100% alt="Chambre Île de Ré" />
+      </div>
+      <div class="card-body">
+        <h3>Chambre Île de Ré</h3>
+        <p>Une chambre douce et lumineuse, pensée dans un esprit bord de mer.</p>
+        <strong>Lit 160x200cm modulable en 2 80x200</strong>
+      </div>
+    </article>
+    <article class="card">
+      <div class="card-photo placeholder">
+        <img src="images/chambre_double.jpg" width=100% alt="Chambre Île d'Oléron" />
+      </div>
+      <div class="card-body">
+        <h3>Chambre Île d'Oléron</h3>
+        <p>Une ambiance chaleureuse inspirée du littoral charentais.</p>
+        <strong>Lit 140x190 cm</strong>
+      </div>
+    </article>
+    <article class="card">
+      <div class="card-photo placeholder">
+        <img src="images/petite_chambre.jpg" width=100% alt="Chambre La Rochelle" />
+      </div>
+      <div class="card-body">
+        <h3>Chambre La Rochelle</h3>
+        <p>Une chambre pratique pour compléter l'accueil familial du gîte.</p>
+        <strong>2 couchages en lit gigogne 90x200 cm</strong>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="exterieur" class="section">
+  <div class="split">
+    <div class="large-placeholder placeholder">
+      <img src="images/jardin.jpg" width=100% alt="Jardin du gîte Le Clos d'Ardillières" />
+    </div>
+    <div>
+      <p class="eyebrow">Dehors</p>
+      <h2>Un petit jardin pour profiter des beaux jours</h2>
+      <p>Le jardin clos et arboré d'environ 60 m² offre un espace agréable pour déjeuner, prendre un verre ou simplement profiter du calme.</p>
+      <p>Une table pour 6 personnes et un barbecue à gaz sont à disposition.</p>
+    </div>
+  </div>
+</section>
+
+<section id="alentours" class="section alt">
+  <p class="eyebrow">Découvrir la région</p>
+  <h2>À proximité du Clos d'Ardillières</h2>
+  <div class="distances">
+    <div><strong>20 min</strong><span>Rochefort</span></div>
+    <div><strong>20 min</strong><span>Châtelaillon-Plage</span></div>
+    <div><strong>35 min</strong><span>La Rochelle</span></div>
+    <div><strong>1h</strong><span>Zoo de La Palmyre</span></div>
+    <div><strong>1h20</strong><span>Futuroscope</span></div>
+  </div>
+  <p class="center-note">Entre campagne, patrimoine, plages et découvertes en famille.</p>
+</section>
+
+<section id="tarifs" class="section">
+  <div class="price-box">
+    <p class="eyebrow">Séjour</p>
+    <h2>Tarifs</h2>
+    <div class="price">À partir de <strong>600 €</strong><small>/ semaine</small></div>
+    <p>+ 60 € de ménage en fin de séjour.</p>
+    <p class="small">Le linge de lit peut être proposé en option. Les modalités exactes et les disponibilités sont à confirmer lors de la réservation.</p>
+    <a class="button" href="#contact">Demander une disponibilité</a>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <p class="eyebrow">Votre séjour</p>
+  <h2>Envie de venir ?</h2>
+  <p>Contactez-nous pour confirmer les disponibilités et préparer votre séjour au Clos d'Ardillières.</p>
+  <div class="contact-grid">
+    <a class="contact-item" href="tel:+33682530960"><span>📞</span><b>Téléphone</b><small>0682530960</small></a>
+    <a class="contact-item" href="mailto:bassard.bord@laposte.net"><span>✉️</span><b>Email</b><small>bassard.bord@laposte.net</small></a>
+    <a class="contact-item" href="https://www.google.fr/maps/place/Chez+Sylvanna+et+Laurent/@46.0596091,-0.8943375,384m/data=!3m1!1e3!4m15!1m8!3m7!1s0x4801377a443f974f:0x2b301702323fea97!2s17290+Ardilli%C3%A8res!3b1!8m2!3d46.058891!4d-0.891461!16zL20vMGY4bXpj!3m5!1s0x48013757434543a1:0x816b3c7ac36693f7!8m2!3d46.0594219!4d-0.8943894!16s%2Fg%2F11zdf4rjqj?entry=ttu&g_ep=EgoyMDI2MDkyNy4xIKXMDSoASAFQAw%3D%3D"><span>📍</span><b>Adresse</b><small>Ardillières, Charente-Maritime</small></a>
+    <a class="contact-item" href="calendrier.html"><span>&#128197;</span><b>disponibilités</b><small>estimez votre tarif</small></a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div><strong>Le Clos d'Ardillières</strong><p>Gîte de charme en Charente-Maritime</p></div>
+  <div><a href="#accueil">Accueil</a> · <a href="#contact">Contact</a></div>
+  <p class="copyright">© <span id="year"></span> Le Clos d'Ardillières · <a href="mentions.html">Mentions légales </a>· <a href="confidentialite.html">Politique de confidentialité </a>· <a href="conditionsloc.html">Conditions de location></a></p>
+</footer>
+
+
+
+<div id="visionneuse" class="visionneuse">
+
+  <button class="fermer" onclick="fermerGalerie()">×</button>
+
+  <button class="precedent" onclick="photoPrecedente()">❮</button>
+
+  <img id="photoGrande" src="" alt="Photo du Clos d’Ardillières">
+
+  <button class="suivant" onclick="photoSuivante()">❯</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
