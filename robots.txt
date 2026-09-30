@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://user-laurent.github.io/Ardillieres/sitemap.xml
